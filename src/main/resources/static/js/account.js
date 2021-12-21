@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $.ajax({
+        url:"/api/admin"
+    }).then(function(data){
+        document.getElementById("nameAdmin").textContent=data.nameAdmin;
+        document.getElementById("addressAdmin").textContent=data.address;
+        document.getElementById("phoneAdmin").textContent=data.phoneNumber;
+        document.getElementById("emailAdmin").textContent=data.email;
+        document.getElementById("contactAdmin").textContent=data.contact;
+        document.getElementById("bornAdmin").textContent=data.dateOfBirth;
+        document.getElementById("avater--person").setAttribute("src","/images/"+data.image);
+    })
+})

@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#app{
+    height: 100vh;
+    width: 100%;
+    background-color: #b0bec5;
+    position: relative;
+}
+
+#wrapper{
+    height: 65%;
+    width: 65%;
+    background-color: #ffffff;
+    margin: 0px auto;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+}
+#wrapper--left{
+    width: 50%;
+    border-right: 1px solid #c8c2c2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper--left--register{
+    width: 40%;
+    border-right: 1px solid #c8c2c2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+#wrapper--right{
+    width: 45%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper--right--register{
+    width: 45%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-right{
+    height: 10%;
+}
+
+#hr--header--right{
+    width: 80%;
+}
+#body--right{
+    height: 60%;
+    margin-top: 50px;
+}
+
+.text--input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+.eyesPassword{
+    position: absolute;
+    top: 56%;
+    right: 5px;
+    display: none;
+}
+
+.active--eyes{
+    display: block;
+}
+
+.inputValue{
+    border-radius: 4px;
+    border: 0.5px solid black;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.failLogin{
+    border: 0.5px solid red;
+}
+
+.textLabel{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fa-facebook-square{
+    color: #007bff;
+    font-size:30px;
+    margin-left: 10px;
+}
+.fa-linkedin{
+    color: #0a66c2;
+    font-size:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.remember--forgot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#rmb{
+    font-size: 12.5px;
+    margin-left: 5px;
+}
+
+.rmb--right >a{
+    font-size: 15px;
+}
+
+#login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+
+#register--header > h1{
+    font-weight: bold;
+}
+
+.formRegister{
+    position: relative;
+    margin-top: 20px;
+}
+
+.icon{
+    position: absolute;
+    top: 15px;
+    left: 3px;
+    font-size: 12px;
+    color: #b0bec5;
+}
+
+.inputForm{
+    height: 50px;
+    width: 100%;
+    padding-left: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#register{
+    margin-top: 15px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+#register--footer{
+    margin-top: 25px;
+}
